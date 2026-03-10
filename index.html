@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spicy Chicken Pickle Store</title>
+    <style>
+        body { font-family: 'Segoe UI', sans-serif; background-color: #fcf8f2; margin: 0; padding: 20px; color: #333; }
+        .container { max-width: 800px; margin: auto; background: white; padding: 30px; border-radius: 15px; box-shadow: 0 4px 15px rgba(0,0,0,0.1); text-align: center; }
+        h1 { color: #d32f2f; }
+        .product-card { border: 2px solid #eee; padding: 20px; border-radius: 10px; margin-top: 20px; }
+        
+        /* IMAGE SETTINGS */
+        .pickle-image { 
+            width: 100%; 
+            max-width: 400px; 
+            height: auto; 
+            border-radius: 8px; 
+            object-fit: cover;
+        }
+
+        .price { font-size: 24px; color: #2e7d32; font-weight: bold; margin: 15px 0; }
+        .btn { background-color: #d32f2f; color: white; padding: 12px 25px; border: none; border-radius: 5px; cursor: pointer; font-size: 16px; }
+        .btn:hover { background-color: #b71c1c; }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>Gourmet Chicken Pickle</h1>
+    <p>Authentic, spicy, and homemade with premium ingredients.</p>
+
+    <div class="product-card">
+        <img src="https://via.placeholder.com/400x300?text=Your+Chicken+Pickle+Image" alt="Chicken Pickle" class="pickle-image">
+        
+        <h3>Spicy Himalayan Style Chicken Pickle</h3>
+        <p>A perfect blend of hand-ground spices and tender chicken bits.</p>
+        
+        <div class="price">$12.99 / 250g</div>
+        
+        <button class="btn" onclick="alert('Added to cart!')">Order Now</button>
+    </div>
+</div>
+
+</body>
+</html>
